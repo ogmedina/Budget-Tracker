@@ -27,8 +27,8 @@ npm run start -OR- node server.js
 The app is hosted using Heroku here at this link: [Heroku Hosted Site](https://serene-badlands-10244.herokuapp.com/)
 
 ### Screenshots 
-![BudgetTracker1]()
-![BudgetTracker2]()
+![BudgetTracker1](https://github.com/ogmedina/Budget-Tracker/blob/main/assets/BudgetTracker1.jpg)
+![BudgetTracker2](https://github.com/ogmedina/Budget-Tracker/blob/main/assets/BudgetTracker2.jpg)
 
 ### License
 This project is licensed under the MIT License. 
