@@ -1,12 +1,14 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "an app to track expenses either online or offline",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "lite-server": "lite-server",
+    "webpack": "webpack",
+    "prestart": "npm run webpack"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,15 @@
     "express": "^4.17.1",
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-pwa-manifest": "^4.0.0"
   }
 }
