@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server",
-    "webpack": "webpack",
-    "prestart": "npm run webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -34,6 +33,6 @@
     "babel-loader": "^8.2.2",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
-    "webpack-pwa-manifest": "^4.0.0"
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
